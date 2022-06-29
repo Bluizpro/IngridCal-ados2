@@ -1,10 +1,5 @@
-/*!
- * Bootstrap v4.1.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-:root {
+
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -62,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: rgb(248, 248, 248); }
+  background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7284,7 +7279,7 @@ a.text-dark:hover, a.text-dark:focus {
 * ======================================================= */
 body {
   font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 250;
+  font-weight: 300;
   font-size: 14px;
   line-height: 1.8;
   color: #595959;
@@ -7357,8 +7352,8 @@ h1, h2, h3, h4, h5,
     margin: 0; } }
 
 .colorlib-nav .top-menu {
-  padding: 20px 0 10px 0; }
-  @media (max-width: 700.98px) {
+  padding: 50px 0 10px 0; }
+  @media (max-width: 767.98px) {
     .colorlib-nav .top-menu {
       padding: 28px 0; } }
   .colorlib-nav .top-menu .search-wrap .form-group {
@@ -8686,7 +8681,7 @@ input[type="text"] {
       border: 1px solid #616161; }
     @media (max-width: 767.98px) {
       .pagination li a {
-        padding: 7px 15px; } }
+        padding: 9px 15px; } }
   .pagination li.active a {
     border: 1px solid #616161;
     background: #616161;
@@ -8843,4 +8838,11 @@ input[type="text"] {
   background: url(../images/loader.gif) center no-repeat #fff; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity: 0;
+ }
+.cartas{  
+  padding-left: 60px;
+}
+#contato{
+  max-width: 400px;
+}
